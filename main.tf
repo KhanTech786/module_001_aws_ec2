@@ -4,5 +4,5 @@ resource "aws_instance" "khans_ec2" {
   tags            = var.instance_tags
   security_groups = var.instance_sec_grp
   key_name        = var.instance_key
-  subnet_id       = aws_subnet.khans_subnet.id
+  subnet_id       = var.instance_subnet
 }
