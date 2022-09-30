@@ -22,8 +22,3 @@ variable "instance_key" {
   description = "instance key pair name"
   type        = string
 }
-
-variable "instance_subnet" {
-  description = "instance subnet to launch in"
-  type        = string
-}
