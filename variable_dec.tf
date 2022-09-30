@@ -15,7 +15,7 @@ variable "instance_tags" {
 
 variable "instance_sec_grp" {
   description = "instance sec grp"
-  type        = list[string]
+  type        = list(string)
 }
 
 variable "instance_key" {
