@@ -23,7 +23,7 @@ variable "instance_key" {
   type        = string
 }
 
-# variable "instance_subnet" {
-#     description = "subnet for instance tp be created in"
-#     type = string
-# }
+variable "subnet_id_for_instance" {
+    description = "subnet for instance tp be created in"
+    type = string
+}
